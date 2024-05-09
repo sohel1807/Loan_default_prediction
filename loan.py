@@ -101,7 +101,7 @@ input_features_scaled[feature_cols] = input_features_scaled_subset
 
 # Make predictions using the model
 prediction = model.predict(input_features_scaled)
-if st.button("Predict Fare"):
+if st.button("Loan Default Prediction"):
     # Display prediction
     if prediction[0] == 1:
         st.error("Prediction: Bad Loan")
