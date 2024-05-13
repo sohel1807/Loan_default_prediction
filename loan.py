@@ -39,7 +39,7 @@ term_mapping = {
 }
 col1,col2,col3 =st.columns(3)
 with col1:
-    grade=st.selectbox("Select Grade(A(rich)->G(very poor)):",list(grade_mapping.keys()))
+    grade=st.selectbox("Select Grade(A(very good)->G(very bad)):",list(grade_mapping.keys()))
 with col2:
     annual_inc=st.number_input("Enter annual income")
 with col3:
